@@ -20,11 +20,11 @@ public class flipCoin {
 		for(int i=0; i< count; i++){
 			double num = Math.random();
 			if (num > 0.5){
-			  System.out.println("num12 "+ num);
+			  System.out.println("num "+ num);
 			  hcount = hcount + 1;
 			}
 			else{
-			  System.out.println("num 34"+num);
+			  System.out.println("num"+num);
 			  tcount = tcount + 1;
 			}
 		}
